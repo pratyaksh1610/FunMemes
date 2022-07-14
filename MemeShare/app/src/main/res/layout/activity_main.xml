@@ -12,13 +12,14 @@
         android:id="@+id/imgView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:onClick="nextMeme"
         android:layout_marginBottom="70dp"
+        android:onClick="nextMeme"
         app:layout_constraintBottom_toTopOf="@id/btnNext"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    progress bar -->
     <ProgressBar
         android:id="@+id/progress_bar_loading"
         android:layout_width="wrap_content"
@@ -65,5 +66,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.5" />
+
+    <!--    save button-->
+    <ImageView
+        android:id="@+id/btnSave"
+        app:srcCompat="@drawable/share_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:onClick="saveImg"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
