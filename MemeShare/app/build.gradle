@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.memeshare"
+        applicationId "com.pratyakshkhurana.memeshare"
         minSdk 26
         targetSdk 31
         versionCode 1
