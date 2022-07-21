@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
         // Instantiate the RequestQueue.
         progress_bar_loading.visibility = View.VISIBLE
         //when meme is loading progress bar will load
-        val queue = Volley.newRequestQueue(this)
         val url = "https://meme-api.herokuapp.com/gimme"
         // api call is done to fetch image of meme
 
@@ -88,7 +87,7 @@ class MainActivity : AppCompatActivity() {
             })
 
         // Add the request to the RequestQueue.
-        queue.add(jsonObjectRequest)
+        MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest)
     }
 
     fun nextMeme(view: View) {
