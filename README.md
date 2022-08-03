@@ -1,18 +1,17 @@
-# :rocket: FunMemes
+# :rocket: FunMemes 
 
-:heavy_check_mark: Developed an android app using `Kotlin` programming language. 
+✔️ Developed an android app using `Kotlin` programming language.
 
-:heavy_check_mark: Used `Glide` Library for image handling and processing.   
+✔️ Used `Glide` Library for image handling and processing.
 
-:heavy_check_mark: Used `Volley` Library for networking and API requests.
+✔️ Used `Volley` library for networking requests and API calls.
 
-:heavy_check_mark: Developed an explore section which fetches cool memes from reddit through an open-source `API` in Kotlin.
+✔️ Developed an explore section which fetches cool memes through an open-source `API` in Kotlin.
 
-:heavy_check_mark: It has a `SHARE` button through which one can share memes through any means.
+✔️ Incorporated `recycler view` and `card view` for displaying memes with an interactive and clean `UI` . 
 
-:heavy_check_mark: I have also added a functionality to `store` memes on the device.
-
-![A](https://github.com/pratyaksh1610/FunMemes/blob/main/Images/1.png)
-![B](https://github.com/pratyaksh1610/FunMemes/blob/main/Images/2.png)
-![C](https://github.com/pratyaksh1610/FunMemes/blob/main/Images/3.png)
-![D](https://github.com/pratyaksh1610/FunMemes/blob/main/Images/4.png)
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/76740999/182681171-affafbfe-119c-40de-b10a-bc728f8c5d5b.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/76740999/182681133-fb7d9916-7cfb-47ae-a4c0-891ee44e6fd4.png" width="300" /> 
+  <img src="https://user-images.githubusercontent.com/76740999/182681126-0fa1bb3f-2b15-48ed-8a03-19aec78038b6.png" width="300" /> 
+</p>
