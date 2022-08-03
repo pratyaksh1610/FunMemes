@@ -1,4 +1,4 @@
-package com.pratyakshkhurana.funmemes
+package com.pratyakshkhurana.memes_recycler_view_demo
 
 import org.junit.Test
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pratyakshkhurana.funmemes">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pratyakshkhurana.memes_recycler_view_demo">
 
-<!--    permissions for internet and storage-->
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <application
         android:allowBackup="true"
-        android:icon="@drawable/app_icon_new"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/app_icon_new"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MemeShare">
+        android:theme="@style/Theme.Memes_recycler_view_demo"
+        tools:targetApi="31">
         <activity
-            android:name="com.pratyakshkhurana.funmemes.MainActivity"
+            android:name="com.pratyakshkhurana.memes_recycler_view_demo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
